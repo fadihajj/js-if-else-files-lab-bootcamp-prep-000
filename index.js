@@ -1,5 +1,6 @@
 var name = "Susan";
 var height = "70";
+height = parseInt(height);
 
 if (name === "Susan") {
     console.log("The name is correct")
@@ -8,6 +9,6 @@ if (name === "Susan") {
 }
 
 // Don't worry about this
-module.exports = { name, parseInt(height)
+module.exports = { name, height
 }
 
